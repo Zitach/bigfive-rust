@@ -1,0 +1,4 @@
+# Placeholder for local `cargo check` on macOS.
+# When building on Windows, provide:
+#   src-tauri/bin/backend-x86_64-pc-windows-msvc.exe
+

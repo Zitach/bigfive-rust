@@ -1,0 +1,262 @@
+[
+  {
+    "domain": "A",
+    "title": "Amabilitatea",
+    "shortDescription": "Amabilitatea reflectă diferențele individuale în ceea ce privește cooperarea și armonia socială. Persoanele agreabile apreciază înțelegerea cu ceilalți.",
+    "description": "Prin urmare, sunt atenți, prietenoși,\n  generoși, de ajutor și dispuși să-și compromită interesele\n  alții'. Oamenii agreabili au și o viziune optimistă asupra omului\n  natură. Ei cred că oamenii sunt practic onești, cumsecade și\n  demn de incredere. <br /><br />\n  Persoanele neplăcute pun interesul personal mai presus de a se înțelege\n  alții. În general, nu sunt preocupați de bunăstarea altora și\n  prin urmare, este puțin probabil să se extindă pentru alte persoane.\n  Uneori, scepticismul lor cu privire la motivele altora îi face să fie\n  suspicios, neprietenos și necooperant.\n<br /><br />\nAgreabilitatea este, evident, avantajoasă pentru atingere și menținere\npopularitate. Oamenii agreabili sunt mai bine agreați decât neplăcuți\noameni. Pe de altă parte, amabilitatea nu este utilă în situații\ncare necesită decizii dure sau obiective absolute. Dezagreabil\noamenii pot deveni oameni de știință, critici sau soldați excelenți.",
+    "results": [
+      {
+        "score": "low",
+        "text": "Scorul tău la Acordare este scăzut, ceea ce indică mai puțină îngrijorare\n      cu nevoile altora decât cu ale tale. Oamenii te văd ca fiind dur,\n      critic și fără compromisuri."
+      },
+      {
+        "score": "neutral",
+        "text": "Nivelul tău de Acordare este mediu, ceea ce indică o anumită îngrijorare\n      cu Nevoile altora, dar, în general, cu lipsa de a se sacrifica\n      tine pentru altii."
+      },
+      {
+        "score": "high",
+        "text": "Nivelul tău ridicat de Acordare indică un interes puternic pentru\n      nevoile și bunăstarea altora. Ești plăcut, simpatic și\n      de cooperare."
+      }
+    ],
+    "facets": [
+      {
+        "facet": 1,
+        "title": "Încredere",
+        "text": "O persoană cu mare încredere presupune că majoritatea oamenilor\n      sunt corecti, cinstiți și au intenții bune. Persoane cu încredere scăzută\n      vedeți-i pe ceilalți ca fiind egoiști, vicleni și potențial periculoși."
+      },
+      {
+        "facet": 2,
+        "title": "Moralitate",
+        "text": "Cei care au punctat mari pe această scară nu văd nevoia\n      pretenția sau manipularea atunci când au de-a face cu ceilalți și, prin urmare, sunt\n      sincer, sincer și sincer. Marcatorii mici cred că un anumit\n      cantitatea de înșelăciune în relațiile sociale este necesară. oameni\n      consideră că este relativ ușor să te raportezi la simplu\n      cei cu scoruri mari pe această scară. În general, le este mai dificil\n      pentru a se raporta la cei care au marcat slab pe această scară. Aceasta\n      ar trebui clarificat faptul că cei care au scoruri mici nu sunt lipsiți de principii\n      sau imoral; pur și simplu sunt mai păziți și mai puțin dispuși să facă deschis\n      dezvăluie întregul adevăr."
+      },
+      {
+        "facet": 3,
+        "title": "Altruism",
+        "text": "Oamenii altruişti găsesc să-i ajute pe ceilalţi\n      cu adevărat plină de satisfacții. În consecință, ei sunt în general dispuși să o facă\n      ajuta pe cei care au nevoie. Oamenii altruişti consideră că fac asta\n      lucrurile pentru alții este mai degrabă o formă de auto-împlinire decât\n      sacrificiu de sine. Cu scorurile mici de pe această scară nu le place în mod deosebit\n      ajutarea celor care au nevoie. Cererile de ajutor par a fi o impunere\n      mai degrabă decât o oportunitate de auto-împlinire."
+      },
+      {
+        "facet": 4,
+        "title": "Cooperare",
+        "text": "Persoane care au un punctaj ridicat la această scară\n      nu-i plac confruntările. Sunt perfect dispuși să facă compromisuri sau\n      de a-și nega propriile nevoi pentru a se înțelege cu ceilalți. Acestea\n      care au scoruri scăzute pe această scară au mai multe șanse să-i intimideze pe alții\n      ia drumul lor."
+      },
+      {
+        "facet": 5,
+        "title": "Modestie",
+        "text": "Marcatorii mari de pe această scară nu le place să pretindă\n      că sunt mai buni decât alți oameni. În unele cazuri această atitudine\n      poate deriva din încrederea în sine sau din stima de sine scăzută. Cu toate acestea,\n      unii oameni cu stimă de sine ridicată consideră nepotrivită lipsa de modestie. Acestea\n      care sunt dispuşi să se descrie ca fiind superiori tind să\n      să fie văzut de alți oameni ca fiind dezagreabil de arogant."
+      },
+      {
+        "facet": 6,
+        "title": "Simpatie",
+        "text": "Oamenii care au scoruri mari pe această scară sunt\n      blând și plin de compasiune. Ei simt durerea altora\n      indirect și sunt ușor de milă. Marcatorii mici nu sunt\n      afectată puternic de suferința umană. Se mândresc cu ei\n      emiterea de judecăți obiective bazate pe rațiune. Ei sunt mai îngrijorați\n      cu adevăr și dreptate imparțială decât cu milă."
+      }
+    ]
+  },
+  {
+    "domain": "E",
+    "title": "Extraversie",
+    "shortDescription": "Extraversiunea este marcată de angajamentul pronunțat cu lumea exterioară.",
+    "description": "Extravertiților le place să fie alături de oameni, sunt plini de energie și\n  trăiesc adesea emoții pozitive. Tind să fie entuziaști,\n  orientate spre acțiune, indivizi care probabil să spună „Da!” sau „Hai să\n  mergeți!\" la oportunități de entuziasm. În grupuri, le place să vorbească,\n  să se afirme și să atragă atenția asupra lor.\n<br /><br />\nIntrovertiților le lipsesc exuberanța, energia și nivelurile de activitate ale\nextravertiți. Tind să fie tăcuți, discreti, deliberați și\ndezlegat de lumea socială. Lipsa lor de implicare socială\nnu trebuie interpretat ca timiditate sau depresie; cel\nintrovertit pur și simplu are nevoie de mai puțină stimulare decât un extravertit și preferă\na fi singur. <br /><br />Independența și rezerva introvertitului este\nuneori confundat cu neprietenie sau aroganță. În realitate, an\nintrovertit care are scoruri mari la dimensiunea agreabilității nu o va face\ncaută pe alții, dar va fi destul de plăcut când vei fi abordat.",
+    "results": [
+      {
+        "score": "low",
+        "text": "Scorul tău la Extraversion este scăzut, ceea ce indică faptul că ești\n      introvertit, rezervat și tăcut. Te bucuri de singurătate și de singurătate\n      Activități. Socializarea ta tinde să fie limitată la câțiva prieteni apropiați."
+      },
+      {
+        "score": "neutral",
+        "text": "Scorul tău la Extraversion este mediu, indicând că ești\n      nici un singuratic înfrânat, nici o vorbărie jovială. Te bucuri de timpul cu\n      alții dar și timp singur."
+      },
+      {
+        "score": "high",
+        "text": "Scorul tău la Extraversion este mare, ceea ce indică faptul că ești\n      sociabil, deschis, energic și plin de viață. Preferi să fii prin preajmă\n      oameni de cele mai multe ori."
+      }
+    ],
+    "facets": [
+      {
+        "facet": 1,
+        "title": "Prietenie",
+        "text": "Oamenii prietenoși le plac cu adevărat celorlalți\n      și să demonstreze deschis sentimente pozitive față de ceilalți. Ei fac\n      prietenii rapid și le este ușor să se formeze apropiate, intime\n      relatii. Marcatorii mici la Friendlyness nu sunt neapărat reci\n      și ostili, dar nu ajung la alții și sunt percepuți\n      la fel de distanta si rezervata."
+      },
+      {
+        "facet": 2,
+        "title": "Gregaritatea",
+        "text": "Oamenii gregari își găsesc compania\n      altele plăcut stimulante și plină de satisfacții. Ei se bucură de\n      entuziasmul mulțimii. Cei care au scoruri mici tind să se simtă copleșiți de și\n      prin urmare, evitați în mod activ aglomerațiile mari. Ei nu neapărat\n      nu-i place să fie cu oamenii uneori, dar nevoia lor de intimitate și\n      timpul pentru ei înșiși este mult mai mare decât pentru indivizii care punctează\n      sus pe această scară."
+      },
+      {
+        "facet": 3,
+        "title": "Asertivitatea",
+        "text": "Marcatori mari Asertivitatea îi place să vorbească\n      scoateți, preluați controlul și direcționați activitățile altora. Ei tind să\n      fii lideri în grupuri. Marcatorii mici tind să nu vorbească mult și să lase\n      alții controlează activitățile grupurilor."
+      },
+      {
+        "facet": 4,
+        "title": "Nivelul de activitate",
+        "text": "Persoanele active conduc în ritm rapid, ocupate\n      vieți. Se mișcă rapid, energic și viguros și\n      sunt implicați în multe activități. Oamenii care au scoruri mici la asta\n      scara urmează un ritm mai lent și mai lejer, relaxat."
+      },
+      {
+        "facet": 5,
+        "title": "Căutarea entuziasmului",
+        "text": "Cele mai mari scoruri pe această scară sunt ușor\n      plictisit fără un nivel ridicat de stimulare. Le plac luminile strălucitoare\n      și forfotă. Este posibil ca aceștia să-și asume riscuri și să caute\n      tari. Marcatorii mici sunt copleșiți de zgomot și agitație și sunt\n      advers căutării senzațiilor tari."
+      },
+      {
+        "facet": 6,
+        "title": "Veselie",
+        "text": "Această scală măsoară starea de spirit pozitivă și\n      sentimente, nu emoții negative (care fac parte din\n      domeniul nevrotism). Persoanele care au un scor mare pe această scară de obicei\n      experimentați o serie de sentimente pozitive, inclusiv fericirea,\n      entuziasm, optimism și bucurie. Marcatorii mici nu sunt la fel de predispuși la acest lucru\n      energic, cu spirit ridicat."
+      }
+    ]
+  },
+  {
+    "domain": "N",
+    "title": "Nevrotism",
+    "shortDescription": "Nevrotismul se referă la tendința de a experimenta sentimente negative.",
+    "description": "Freud a folosit inițial termenul de nevroză pentru a descrie a\n  stare marcată de suferință mentală, suferință emoțională și an\n  incapacitatea de a face față eficient cerințelor normale ale vieții. El\n  a sugerat că toată lumea prezintă unele semne de nevroză, dar că noi\n  diferă în gradul nostru de suferință și simptomele noastre specifice de\n  suferință. Astăzi nevroticismul se referă la tendința de a experimenta\n  sentimente negative. <br /><br />Cei care au un scor mare la nevrotism pot\n  experimentați în primul rând un sentiment negativ specific, cum ar fi anxietatea,\n  furie sau depresie, dar este posibil să experimenteze mai multe dintre acestea\n  emoții. <br /><br />Oamenii cu nevroticism sunt reactivi emoțional. ei\n  să răspundă emoțional la evenimente care nu ar afecta majoritatea oamenilor și\n  reacțiile lor tind să fie mai intense decât în mod normal. Ele sunt mai multe\n  susceptibile de a interpreta situațiile obișnuite ca fiind amenințătoare și minore\n  frustrările la fel de dificile. <br /><br />Emoționalul lor negativ\n  reacţiile tind să persistă pentru perioade de timp neobişnuit de lungi, ceea ce\n  înseamnă că sunt adesea într-o dispoziție proastă. Aceste probleme sunt emoționale\n  reglarea poate diminua capacitatea unui nevrotic de a gândi clar, de a face\n  decizii și să facă față eficient stresului.",
+    "results": [
+      {
+        "score": "low",
+        "text": "Scorul tău la nevrotism este scăzut, ceea ce indică faptul că ești\n      excepțional de calm, de calm și de neclintit. Nu reactionezi cu\n      emoții intense, chiar și la situații pe care majoritatea oamenilor le-ar descrie\n      la fel de stresant."
+      },
+      {
+        "score": "neutral",
+        "text": "Scorul tău la nevrotism este mediu, indicând că nivelul tău de\n      reactivitatea emoțională este tipică populației generale.\n      Situațiile stresante și frustrante sunt oarecum supărătoare pentru tine,\n      dar în general ești capabil să treci peste aceste sentimente și să faci față\n      aceste situatii."
+      },
+      {
+        "score": "high",
+        "text": "Scorul tău la nevrotism este mare, ceea ce indică faptul că ești ușor\n      supărat, chiar și de ceea ce majoritatea oamenilor consideră cerințe normale\n      viaţă. Oamenii te consideră sensibil și emoțional."
+      }
+    ],
+    "facets": [
+      {
+        "facet": 1,
+        "title": "Anxietate",
+        "text": "Sistemul „luptă sau fugi” al creierului anxioșilor\n      indivizii este prea ușor și prea des implicați. Prin urmare, oamenii care\n      sunt mari în anxietate, adesea simt că ceva periculos este pe cale să se întâmple.\n      S-ar putea să le fie frică de situații specifice sau să fie în general frică.\n      Se simt încordați, nervoși și nervoși. Persoanele cu anxietate scăzută sunt în general\n      calm si neinfricat."
+      },
+      {
+        "facet": 2,
+        "title": "Furie",
+        "text": "Persoanele care au un scor mare la Furie se simt furioși când\n      lucrurile nu merg cum ei. Sunt sensibili pentru a fi tratați corect\n      și simt resentimente și amar când simt că sunt înșelați.\n      Această scală măsoară tendința de a se simți furios; fie sau nu\n      persoana exprimă enervarea și ostilitatea depinde de cea a individului\n      nivelul de Agreabilitate. Cei care au scoruri mici nu se enervează des sau ușor."
+      },
+      {
+        "facet": 3,
+        "title": "Depresie",
+        "text": "Această scală măsoară tendința de a se simți trist, abătut,\n      si descurajat. Marcatorii mari nu au energie și au dificultăți la inițiere\n      Activități. Persoanele cu scoruri mici tind să fie libere de aceste sentimente depresive."
+      },
+      {
+        "facet": 4,
+        "title": "Conștiința de sine",
+        "text": "Indivizii conștienți de sine sunt sensibili\n      despre ceea ce cred alții despre ei. Preocuparea lor cu privire la respingere și\n      ridicul îi face să se simtă timizi și inconfortabil în preajma celorlalți. ei\n      sunt ușor de jenat și adesea se simt rușinați. Temerile lor că alții\n      le va critica sau va face de râs sunt exagerate și nerealiste, dar\n      stangănia și disconfortul lor pot face din aceste temeri o auto-împlinire\n      profeție. Marcatorii mici, în schimb, nu suferă din cauza greșelii\n      impresia că toată lumea îi urmărește și îi judecă. Ei nu simt\n      nervos în situații sociale."
+      },
+      {
+        "facet": 5,
+        "title": "Nemoderație",
+        "text": "Indivizii nemoderați simt pofte puternice și\n      îndeamnă că au dificultăți în a rezista. Ele tind să fie\n      orientat spre plăceri și recompense pe termen scurt, mai degrabă decât pe termen lung\n      consecințe pe termen. Marcatorii mici nu au o experiență puternică, irezistibilă\n      pofte și, în consecință, nu se trezesc tentați să se răsfețe."
+      },
+      {
+        "facet": 6,
+        "title": "Vulnerabilitate",
+        "text": "Scoruri mari la experiența Vulnerabilității\n      panică, confuzie și neputință atunci când sunteți sub presiune sau stres.\n      Cei care au scoruri mici se simt mai echilibrați, încrezători și mai clari atunci când\n      accentuat."
+      }
+    ]
+  },
+  {
+    "domain": "C",
+    "title": "Conştiinciozitate",
+    "shortDescription": "Conștiința se referă la modul în care ne controlăm, reglementăm și ne direcționăm impulsurile.",
+    "description": "Impulsurile nu sunt în mod inerent rele;\n  ocazional, constrângerile de timp necesită o decizie rapidă și acționarea în consecință\n  primul nostru impuls poate fi un răspuns eficient. De asemenea, în vremuri de\n  joacă mai degrabă decât muncă, acționând spontan și impulsiv poate fi\n  distracţie. Indivizii impulsivi pot fi văzuți de alții ca fiind colorați,\n  distractiv și ciudat.\n<br /><br />\nCu toate acestea, acționarea din impuls poate duce la probleme în mai multe\nmoduri. Unele impulsuri sunt antisociale. Acte antisociale necontrolate\nnu numai că dăunează altor membri ai societății, ci poate avea ca rezultat\nrăzbunare față de autorul unor astfel de acte impulsive. Un alt\nproblema cu actele impulsive este că acestea produc adesea imediate\nrecompense, dar consecințe nedorite, pe termen lung. Exemplele includ\nsocializare excesivă care duce la concedierea de la locul de muncă,\naruncând o insultă care provoacă ruperea unui important\nrelație sau folosirea de droguri care induc plăcerea care în cele din urmă\ndistruge sănătatea cuiva.\n<br /><br />\nComportamentul impulsiv, chiar dacă nu este serios distructiv, se diminuează\neficacitatea unei persoane în moduri semnificative. Acționând impulsiv\ninterzice contemplarea unor cursuri alternative de acțiune, dintre care unele\nar fi fost mai înțelept decât alegerea impulsivă. Impulsivitate de asemenea\ndeturnează oamenii în timpul proiectelor care necesită secvențe organizate\nde trepte sau etape. Realizările unei persoane impulsive sunt\nprin urmare mici, împrăștiate și inconsecvente.\n<br /><br />\nUn semn distinctiv al inteligenței, ceea ce poate separa ființele umane\ndin formele de viață anterioare, este capacitatea de a se gândi la viitor\nconsecințe înainte de a acționa dintr-un impuls. Activitate inteligentă\nimplică contemplarea obiectivelor pe termen lung, organizare și planificare\ncăi către aceste obiective și persistență față de obiectivele cuiva\nde impulsuri de scurtă durată spre dimpotrivă. Ideea că inteligența\nimplică controlul impulsurilor este frumos surprins de termenul prudență, an\netichetă alternativă pentru domeniul Conștiință. Mijloace prudente\natât înțelept cât și precaut.\n<br /><br/>\nPersoanele care au un scor mare la\nScala de conștiință este, de fapt, percepută de alții ca fiind inteligente.\nBeneficiile unei conștiinciozitate ridicată sunt evidente. conștiincios\nindivizii evită necazurile și ating niveluri ridicate de succes prin\nplanificare intenționată și perseverență. Sunt, de asemenea, pozitiv\nprivite de alții ca fiind inteligente și de încredere. Pe negativ\nÎn afară de aceasta, pot fi perfecționiști compulsivi și dependenti de muncă.\nÎn plus, ar putea fi considerate persoane extrem de conștiincioase\nla fel de înfundat și plictisitor.\n<br /><br />\nOamenii inconștienți pot fi criticați pentru\nlipsa lor de încredere, lipsa de ambiție și eșecul de a rămâne înăuntru\nreplicile, dar vor experimenta multe plăceri de scurtă durată și\nnu vor fi numiți niciodată înfundați.",
+    "results": [
+      {
+        "score": "low",
+        "text": "Scorul tău la Conștiință este scăzut, ceea ce indică că îți place să trăiești\n      pentru moment și fă ceea ce se simte bine acum. Munca ta tinde să fie\n      neglijent și dezorganizat."
+      },
+      {
+        "score": "neutral",
+        "text": "Scorul tău la Conștiință este mediu. Asta înseamnă că ești\n      rezonabil de fiabil, organizat și autocontrolat."
+      },
+      {
+        "score": "high",
+        "text": "Scorul tău la Conștiință este mare. Asta înseamnă că ai stabilit clar\n      obiective și urmăriți-le cu hotărâre. Oamenii te consideră ca\n      de încredere și muncitor."
+      }
+    ],
+    "facets": [
+      {
+        "facet": 1,
+        "title": "Auto-eficacitate",
+        "text": "Autoeficacitatea descrie încrederea în capacitatea cuiva\n      pentru a realiza lucruri. Cele mai mari scoruri cred că au inteligență\n      (bun simț), impuls și autocontrol necesare pentru a obține succes.\n      Persoanele cu scoruri mici nu se simt eficienți și pot avea sentimentul că nu sunt\n      în controlul vieții lor."
+      },
+      {
+        "facet": 2,
+        "title": "Ordine",
+        "text": "Persoanele cu scoruri mari la ordine sunt\n      bine organizat. Le place să trăiască conform rutinelor și programelor. ei\n      tine liste si face planuri. Cei care au scoruri mici tind să fie dezorganizați și\n      risipite."
+      },
+      {
+        "facet": 3,
+        "title": "Obligație",
+        "text": "Această scară reflectă puterea simțului unei persoane\n      de datorie si obligatie. Cei care au un scor mare pe această scară au un puternic\n      simțul obligației morale. Cei care au scoruri mici găsesc contracte, reguli și\n      reglementări excesiv de restrictive. Ele sunt susceptibile de a fi considerate nesigure sau\n      chiar iresponsabil."
+      },
+      {
+        "facet": 4,
+        "title": "Efortul de realizare",
+        "text": "Persoane care obțin scoruri mari la asta\n      scară se străduiesc din greu pentru a atinge excelența. Dorința lor de a fi recunoscuți ca\n      succesul îi menține pe drumul cel bun spre obiectivele lor înalte. Au adesea\n      un puternic simț al direcției în viață, dar scoruri extrem de mari pot\n      să fie prea unic și obsedat de munca lor. Cei care au scoruri mici sunt mulțumiți\n      să se descurce cu o cantitate minimă de muncă și ar putea fi văzut de alții\n      ca leneș."
+      },
+      {
+        "facet": 5,
+        "title": "Auto-disciplina",
+        "text": "Autodisciplină - ceea ce mulți oameni numesc\n      puterea-voinței-se referă la capacitatea de a persista în situații dificile sau neplăcute\n      sarcinile până la finalizarea acestora. Oameni care posedă o autodisciplină ridicată\n      sunt capabili să depășească reticența de a începe sarcinile și să rămână pe drumul cel bun în ciuda\n      distrageri. Cei cu autodisciplină scăzută amână și arată săraci\n      urmărire, deseori nereușind să îndeplinească sarcinile - chiar și sarcinile pe care le doresc foarte mult\n      mult de completat."
+      },
+      {
+        "facet": 6,
+        "title": "Prudenţă",
+        "text": "Precauția descrie dispoziția la\n      gândiți-vă la posibilități înainte de a acționa. Marcatori mari la Precauție\n      scară își iau timpul când iau decizii. Cele mai mici scoruri spun sau fac adesea\n      primul lucru care îmi vine în minte fără a delibera alternative și\n      consecințele probabile ale acelor alternative."
+      }
+    ]
+  },
+  {
+    "domain": "O",
+    "title": "Deschidere către experiență",
+    "shortDescription": "Deschiderea către experiență descrie o dimensiune a stilului cognitiv care distinge oamenii imaginativi și creativi de oamenii convenționali, cu picioarele pe pământ.",
+    "description": "Oamenii deschiși sunt curioși din punct de vedere intelectual,\n  apreciator de artă și sensibil la frumos. Ele tind să fie,\n  comparativ cu oamenii închisi, mai conștienți de sentimentele lor. Ei tind să\n  gândește și acționează în mod individualist și nonconform\n  moduri. Intelectualii obțin de obicei un scor mare la Deschiderea către experiență;\n  în consecinţă, acest factor a fost numit şi Cultură sau\n  Intelect. <br /><br />Cu toate acestea, intelectul este probabil cel mai bine privit ca un aspect al deschiderii\n  a trăi. Scorurile la deschiderea către experiență sunt doar modeste\n  legate de anii de educație și scorurile la testele inteligente standard.\n  <br /><br />\n  O altă caracteristică a stilului cognitiv deschis este o facilitate pentru gândire\n  în simboluri şi abstracţii departe de experienţa concretă. Depinde de\n  abilitățile intelectuale specifice ale individului, această cunoaștere simbolică poate\n  iau forma gândirii matematice, logice sau geometrice, artistice și\n  utilizarea metaforică a limbajului, a compoziției muzicale sau a performanței sau a uneia dintre\n  multe arte vizuale sau spectacole.\n  <br /><br />\n  Persoanele cu scoruri scăzute la deschiderea către experiență tind să aibă înguste, comune\n  interese. Ei preferă simplu, simplu și evident în detrimentul\n  complex, ambiguu și subtil. Ei pot privi artele și științele cu\n  suspiciune, privind aceste eforturi ca fiind abstruse sau lipsite de utilitate practică.\n  Oamenii închiși preferă familiaritatea decât noutatea; sunt conservatori şi\n  rezistent la schimbare.\n  <br /><br />\n  Deschiderea este adesea prezentată ca fiind mai sănătoasă sau mai matură de către psihologi, care\n  sunt adesea ei înșiși deschiși la experiență. Cu toate acestea, stilurile deschise și închise de\n  gândirea sunt utile în diferite medii. Stilul intelectual al\n  O persoană deschisă poate servi bine unui profesor, dar cercetările au arătat că a fost închis\n  gândirea este legată de performanța superioară la locul de muncă în munca de poliție, vânzări și\n  o serie de ocupaţii de servicii.",
+    "results": [
+      {
+        "score": "low",
+        "text": "Scorul dvs. la Deschiderea către experiență este scăzut, ceea ce indică faptul că vă place să gândiți\n      termeni simpli și simpli. Alții te descriu ca fiind cu picioarele pe pământ, practic,\n      si conservatoare."
+      },
+      {
+        "score": "neutral",
+        "text": "Scorul tău la Deschiderea către experiență este mediu, ceea ce indică faptul că îți place\n      tradiție, dar sunt dispuși să încerce lucruri noi. Gândirea ta nu este nici una\n      simplu si nici complex. Pentru alții, pari o persoană bine educată\n      dar nu un intelectual."
+      },
+      {
+        "score": "high",
+        "text": "Scorul tău la Deschiderea către experiență este mare, ceea ce indică faptul că îți place noutatea,\n      varietate și schimbare. Ești curios, imaginativ și creativ."
+      }
+    ],
+    "facets": [
+      {
+        "facet": 1,
+        "title": "Imaginație",
+        "text": "Pentru indivizii imaginativi, lumea reală este\n      adesea prea simplu și obișnuit. Cei cu scoruri mari pe această scară folosesc fantezia ca a\n      mod de a crea o lume mai bogată, mai interesantă. Marcatorii mici sunt pe asta\n      scara sunt mai orientate spre fapte decât spre fantezie."
+      },
+      {
+        "facet": 2,
+        "title": "Interese artistice",
+        "text": "Cele mai mari scoruri de pe această scară iubesc frumusețea, ambele în\n      artă și în natură. Ei devin ușor implicați și absorbiți în domeniul artistic\n      și evenimente naturale. Nu sunt neapărat pregătiți artistic și nici\n      talentați, deși mulți vor fi. Caracteristicile definitorii ale acestei scale sunt\n      interes și apreciere pentru naturale și\n      frumusețe artificială. Pentru cei care au scoruri mici le lipsește sensibilitatea estetică și interesul pentru\n      Artele."
+      },
+      {
+        "facet": 3,
+        "title": "Afectivitate",
+        "text": "Persoanele cu nivel ridicat de Emotivitate au acces bun\n      la și conștientizarea propriilor sentimente. Marcatorii mici sunt mai puțin conștienți de\n      sentimentele lor și tind să nu-și exprime deschis emoțiile."
+      },
+      {
+        "facet": 4,
+        "title": "Aventură",
+        "text": "Marcatorii mari la aventură sunt dornici să\n      încercați activități noi, călătoriți în țări străine și experimentați diferit\n      lucruri. Ei găsesc familiaritatea și rutina plictisitoare și vor lua ceva nou\n      drum spre casă doar pentru că este diferit. Marcatorii mici tind să se simtă\n      incomod de schimbare și preferă rutinele familiare."
+      },
+      {
+        "facet": 5,
+        "title": "Intelect",
+        "text": "Intelectul și interesele artistice sunt cele mai multe\n      aspecte importante, centrale ale deschiderii către experiență. Marcatori mari pe\n      Intelectului îi place să se joace cu ideile. Sunt deschiși către nou și neobișnuit\n      idei și le place să dezbateți probleme intelectuale. Le plac ghicitorile, puzzle-urile,\n      și jocuri de creier. Cei care au scoruri mici pe Intellect preferă să se ocupe de oricare dintre ele\n      oameni sau lucruri mai degrabă decât idei. Ei consideră exercițiile intelectuale ca a\n      pierdere de timp. Intelectul nu trebuie echivalat cu inteligența.\n      Intelectul este un stil intelectual, nu o abilitate intelectuală, totuși\n      cei cu scoruri mari la Intelect obțin un scor ușor mai mare decât la Intelect scăzut\n      indivizi la teste de inteligență standardizate."
+      },
+      {
+        "facet": 6,
+        "title": "Liberalism",
+        "text": "Liberalismul psihologic se referă la o disponibilitate pentru\n      contesta autoritatea, convenția și valorile tradiționale. În cea mai mare parte\n      formă extremă, liberalismul psihologic poate chiar reprezenta direct\n      ostilitate față de reguli, simpatie pentru cei care încalcă legea și dragoste pentru ambiguitate,\n      haos și dezordine. Conservatorii psihologici preferă securitatea și\n      stabilitate adusă de conformitatea cu tradiţia. Liberalismul psihologic\n      și conservatorismul nu sunt identice cu apartenența politică, dar cu siguranță\n      înclina indivizii către anumite partide politices."
+      }
+    ]
+  }
+]

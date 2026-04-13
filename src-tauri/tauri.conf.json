@@ -1,0 +1,43 @@
+{
+  "build": {
+    "beforeBuildCommand": "",
+    "beforeDevCommand": "pnpm -C ../frontend dev --host",
+    "devPath": "http://localhost:5173",
+    "distDir": "../frontend/dist"
+  },
+  "package": {
+    "productName": "Big Five",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "Big Five",
+        "width": 1100,
+        "height": 760,
+        "resizable": true
+      }
+    ],
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "sidecar": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "com.bigfive.app",
+      "icon": [
+        "icons/icon.ico"
+      ],
+      "externalBin": [
+        "bin/backend"
+      ]
+    },
+    "security": {
+      "csp": null
+    }
+  }
+}
+

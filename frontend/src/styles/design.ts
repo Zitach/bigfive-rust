@@ -1,0 +1,32 @@
+export const colors = {
+  nearBlack: '#141413',
+  terracotta: '#c96442',
+  coral: '#d97757',
+  crimson: '#b53333',
+  focusBlue: '#3898ec',
+  parchment: '#f5f4ed',
+  ivory: '#faf9f5',
+  white: '#ffffff',
+  warmSand: '#e8e6dc',
+  darkSurface: '#30302e',
+  deepDark: '#141413',
+  charcoalWarm: '#4d4c48',
+  oliveGray: '#5e5d59',
+  stoneGray: '#87867f',
+  darkWarm: '#3d3d3a',
+  warmSilver: '#b0aea5',
+  borderCream: '#f0eee6',
+  borderWarm: '#e8e6dc',
+  borderDark: '#30302e',
+  ringWarm: '#d1cfc5',
+  ringSubtle: '#dedcd1',
+  ringDeep: '#c2c0b6',
+} as const
+
+export const chartColors = [
+  '#c96442',
+  '#d97757',
+  '#4d4c48',
+  '#87867f',
+  '#30302e',
+]

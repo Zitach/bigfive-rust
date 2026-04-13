@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "首页",
+    "test": "测试",
+    "compare": "对比",
+    "language": "语言"
+  },
+  "domains": {
+    "openness": "开放性",
+    "conscientiousness": "尽责性",
+    "extraversion": "外向性",
+    "agreeableness": "宜人性",
+    "neuroticism": "神经质"
+  },
+  "home": {
+    "meta": "开源 • 免注册",
+    "metaDetail": "120 道题 • 约 10 分钟 • 即时出结果",
+    "title": "大五人格测试",
+    "subtitle": "基于科学验证的五因素模型，发现你的个性画像。",
+    "startTest": "开始测试",
+    "compare": "对比结果",
+    "dimensionsTitle": "五个维度",
+    "dimensionsSubtitle": "五个宏观维度与各自的细分维度（facet），帮助你更清晰地理解自己的倾向。",
+    "openness": {
+      "title": "开放性",
+      "description": "描述了一种认知风格的维度，将富有想象力、创造力的人与务实、传统的人区分开来。"
+    },
+    "conscientiousness": {
+      "title": "尽责性",
+      "description": "关乎我们控制、调节和引导自己冲动的方式。"
+    },
+    "extraversion": {
+      "title": "外向性",
+      "description": "以积极参与外部世界为特征。"
+    },
+    "agreeableness": {
+      "title": "宜人性",
+      "description": "反映了个体在合作与社会和谐方面的关注差异。"
+    },
+    "neuroticism": {
+      "title": "神经质",
+      "description": "指的是体验负面情绪的倾向。"
+    },
+    "footer": "© 大五人格测试"
+  },
+  "test": {
+    "previous": "上一题",
+    "next": "下一题",
+    "getResults": "查看结果",
+    "progress": "进度",
+    "answered": "已回答",
+    "language": "语言",
+    "restored": "你的答案已恢复。",
+    "startOver": "重新开始"
+  },
+  "result": {
+    "theBigFive": "大五人格",
+    "score": "得分",
+    "saveResults": "保存你的结果 ID，以后可以随时查看此页面。",
+    "compare": "对比",
+    "toOthers": "与他人",
+    "important": "重要提示：",
+    "loading": "加载报告中…",
+    "all": "全部"
+  },
+  "compare": {
+    "title": "对比结果",
+    "subtitle": "输入结果 ID，并排对比多个大五人格画像。",
+    "addResult": "添加结果",
+    "remove": "移除",
+    "compare": "对比",
+    "comparing": "对比中...",
+    "resultIdPlaceholder": "结果 ID",
+    "loading": "加载结果中...",
+    "errorPrefix": "加载结果失败，ID",
+    "language": "语言",
+    "date": "日期"
+  }
+}

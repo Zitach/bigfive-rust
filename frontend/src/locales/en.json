@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Home",
+    "test": "Test",
+    "compare": "Compare",
+    "language": "Language"
+  },
+  "domains": {
+    "openness": "Openness",
+    "conscientiousness": "Conscientiousness",
+    "extraversion": "Extraversion",
+    "agreeableness": "Agreeableness",
+    "neuroticism": "Neuroticism"
+  },
+  "home": {
+    "meta": "Open-source • No registration",
+    "metaDetail": "120 questions • ~10 minutes • Instant results",
+    "title": "The Big Five Personality Test",
+    "subtitle": "Discover your personality profile based on the scientifically validated five-factor model.",
+    "startTest": "Start Test",
+    "compare": "Compare Results",
+    "dimensionsTitle": "The Five Dimensions",
+    "dimensionsSubtitle": "Five broad domains, each with its own facets — a readable summary of how you tend to think, feel, and act.",
+    "openness": {
+      "title": "Openness to Experience",
+      "description": "Describes a dimension of cognitive style that distinguishes imaginative, creative people from down-to-earth, conventional people."
+    },
+    "conscientiousness": {
+      "title": "Conscientiousness",
+      "description": "Concerns the way in which we control, regulate, and direct our impulses."
+    },
+    "extraversion": {
+      "title": "Extraversion",
+      "description": "Marked by pronounced engagement with the external world."
+    },
+    "agreeableness": {
+      "title": "Agreeableness",
+      "description": "Reflects individual differences in concern with cooperation and social harmony."
+    },
+    "neuroticism": {
+      "title": "Neuroticism",
+      "description": "Refers to the tendency to experience negative feelings."
+    },
+    "footer": "© Big Five Personality Test"
+  },
+  "test": {
+    "previous": "Previous",
+    "next": "Next",
+    "getResults": "Get Results",
+    "progress": "Progress",
+    "answered": "answered",
+    "language": "Language",
+    "restored": "Your answers have been restored.",
+    "startOver": "Start over"
+  },
+  "result": {
+    "theBigFive": "The Big Five",
+    "score": "Score",
+    "saveResults": "Save your result ID to revisit this page later.",
+    "compare": "Compare",
+    "toOthers": "to others",
+    "important": "Important:",
+    "loading": "Loading report…",
+    "all": "All"
+  },
+  "compare": {
+    "title": "Compare Results",
+    "subtitle": "Enter result IDs to compare multiple Big Five profiles side by side.",
+    "addResult": "Add Result",
+    "remove": "Remove",
+    "compare": "Compare",
+    "comparing": "Comparing...",
+    "resultIdPlaceholder": "Result ID",
+    "loading": "Loading results...",
+    "errorPrefix": "Failed to load result for ID",
+    "language": "Language",
+    "date": "Date"
+  }
+}

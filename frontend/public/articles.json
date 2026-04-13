@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "link_between_personality_trais_psychological_needs",
+    "title": "Link Between Personality Traits and Basic Psychological Needs",
+    "date": "2024-04-22",
+    "excerpt": "A study examines how personality traits like extraversion, conscientiousness, and agreeableness affect the satisfaction of basic psychological needs such as autonomy, competence, and relatedness.",
+    "image": "/blog/self_care.webp",
+    "author": {
+      "name": "Jonas Enge",
+      "username": "@maccyber",
+      "link": "https://twitter.com/maccyber",
+      "avatar": "/avatars/maccyber.webp"
+    },
+    "readingTime": 3
+  },
+  {
+    "slug": "the_dark_of_personality",
+    "title": "The Dark Core of Personality",
+    "date": "2024-04-21",
+    "excerpt": "Discover the Dark Core of Personality, a study revealing how traits like narcissism and Machiavellianism are interconnected and shape unethical behaviors.",
+    "image": "/blog/dark_core_of_personality.webp",
+    "author": {
+      "name": "Jonas Enge",
+      "username": "@maccyber",
+      "link": "https://twitter.com/maccyber",
+      "avatar": "/avatars/maccyber.webp"
+    },
+    "readingTime": 3
+  },
+  {
+    "slug": "bigfive_relationships",
+    "title": "Exploring the Links Between Personality and Relationship Satisfaction",
+    "date": "2024-04-20",
+    "excerpt": "A study examines how the Big Five personality traits impact relationship satisfaction",
+    "image": "/blog/couple_in_love.webp",
+    "author": {
+      "name": "Jonas Enge",
+      "username": "@maccyber",
+      "link": "https://twitter.com/maccyber",
+      "avatar": "/avatars/maccyber.webp"
+    },
+    "readingTime": 2
+  },
+  {
+    "slug": "personality_diseases",
+    "title": "Can Personality Affect What Diseases We Get?",
+    "date": "2024-04-20",
+    "excerpt": "Australian researchers find links between personality traits and serious diseases.",
+    "image": "/blog/sick_link_personality.webp",
+    "author": {
+      "name": "Jonas Enge",
+      "username": "@maccyber",
+      "link": "https://twitter.com/maccyber",
+      "avatar": "/avatars/maccyber.webp"
+    },
+    "readingTime": 3
+  },
+  {
+    "slug": "conscientiousness_longevity",
+    "title": "One Personality Trait Predicts Longevity More Than Others",
+    "date": "2024-04-19",
+    "excerpt": "High conscientiousness seems to pay off through multiple pathways.",
+    "image": "/blog/longevity.webp",
+    "author": {
+      "name": "Jonas Enge",
+      "username": "@maccyber",
+      "link": "https://twitter.com/maccyber",
+      "avatar": "/avatars/maccyber.webp"
+    },
+    "readingTime": 3
+  },
+  {
+    "slug": "agreeableness",
+    "title": "Agreeableness",
+    "date": "2021-12-24",
+    "excerpt": "An article on the personality trait agreeableness.",
+    "image": "/blog/traits/agreeableness_2.webp",
+    "author": {
+      "name": "Jonas Enge",
+      "username": "@maccyber",
+      "link": "https://twitter.com/maccyber",
+      "avatar": "/avatars/maccyber.webp"
+    },
+    "readingTime": 3
+  },
+  {
+    "slug": "conscientiousness",
+    "title": "Conscientiousness",
+    "date": "2021-12-24",
+    "excerpt": "An article on the personality trait Conscientiousness.",
+    "image": "/blog/traits/conscientiousness_2.webp",
+    "author": {
+      "name": "Jonas Enge",
+      "username": "maccyber",
+      "link": "https://twitter.com/maccyber",
+      "avatar": "/avatars/maccyber.webp"
+    },
+    "readingTime": 4
+  },
+  {
+    "slug": "extraversion",
+    "title": "Extraversion",
+    "date": "2021-12-24",
+    "excerpt": "An article on the personality trait extraversion.",
+    "image": "/blog/traits/extraversion_3.webp",
+    "author": {
+      "name": "Jonas Enge",
+      "username": "maccyber",
+      "link": "https://twitter.com/maccyber",
+      "avatar": "/avatars/maccyber.webp"
+    },
+    "readingTime": 3
+  },
+  {
+    "slug": "neuroticism",
+    "title": "Neuroticism",
+    "date": "2021-12-24",
+    "excerpt": "An article on the personality trait Neuroticism.",
+    "image": "/blog/traits/neuroticism_2.webp",
+    "author": {
+      "name": "Jonas Enge",
+      "username": "maccyber",
+      "link": "https://twitter.com/maccyber",
+      "avatar": "/avatars/maccyber.webp"
+    },
+    "readingTime": 3
+  },
+  {
+    "slug": "openness_to_experience",
+    "title": "Openness to experience",
+    "date": "2021-12-24",
+    "excerpt": "An article on the personality trait openness to experience.",
+    "image": "/blog/traits/openness_2.webp",
+    "author": {
+      "name": "Jonas Enge",
+      "username": "maccyber",
+      "link": "https://twitter.com/maccyber",
+      "avatar": "/avatars/maccyber.webp"
+    },
+    "readingTime": 4
+  }
+]

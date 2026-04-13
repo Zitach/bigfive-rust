@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "test": "テスト",
+    "compare": "比較",
+    "language": "言語"
+  },
+  "domains": {
+    "openness": "開放性",
+    "conscientiousness": "誠実性",
+    "extraversion": "外向性",
+    "agreeableness": "協調性",
+    "neuroticism": "神経症傾向"
+  },
+  "home": {
+    "meta": "オープンソース • 登録不要",
+    "metaDetail": "全120問 • 約10分 • すぐに結果",
+    "title": "ビッグファイブ性格診断",
+    "subtitle": "科学的に検証された5因子モデルに基づいて、あなたの性格プロフィールを発見しましょう。",
+    "startTest": "テストを開始",
+    "compare": "結果を比較",
+    "dimensionsTitle": "5つの特性次元",
+    "dimensionsSubtitle": "5つの主要領域とそれぞれのファセット（下位尺度）で、あなたの傾向を読みやすく整理します。",
+    "openness": {
+      "title": "経験への開放性",
+      "description": "想像力豊かで創造的な人と、現実的で慣習的な人を分ける認知スタイルの側面です。"
+    },
+    "conscientiousness": {
+      "title": "誠実性",
+      "description": "衝動をコントロールし、調整し、方向づける傾向に関わります。"
+    },
+    "extraversion": {
+      "title": "外向性",
+      "description": "外の世界への積極的な関わりによって特徴づけられます。"
+    },
+    "agreeableness": {
+      "title": "協調性",
+      "description": "協力や社会的調和への関心における個人差を反映します。"
+    },
+    "neuroticism": {
+      "title": "神経症傾向",
+      "description": "否定的な感情を経験しやすい傾向を指します。"
+    },
+    "footer": "© Big Five Personality Test"
+  },
+  "test": {
+    "previous": "前へ",
+    "next": "次へ",
+    "getResults": "結果を見る",
+    "progress": "進捗",
+    "answered": "回答済み",
+    "language": "言語",
+    "restored": "回答が復元されました。",
+    "startOver": "最初からやり直す"
+  },
+  "result": {
+    "theBigFive": "ビッグファイブ",
+    "score": "スコア",
+    "saveResults": "このページを後で再確認できるように、結果 ID を保存してください。",
+    "compare": "比較",
+    "toOthers": "他の人と",
+    "important": "重要：",
+    "loading": "レポートを読み込み中…",
+    "all": "すべて"
+  },
+  "compare": {
+    "title": "結果を比較",
+    "subtitle": "結果 ID を入力して、複数のビッグファイブ・プロフィールを並べて比較します。",
+    "addResult": "結果を追加",
+    "remove": "削除",
+    "compare": "比較する",
+    "comparing": "比較中…",
+    "resultIdPlaceholder": "結果 ID",
+    "loading": "結果を読み込み中…",
+    "errorPrefix": "次の ID の結果を読み込めませんでした",
+    "language": "言語",
+    "date": "日付"
+  }
+}
+

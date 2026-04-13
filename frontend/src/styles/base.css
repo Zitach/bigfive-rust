@@ -1,0 +1,20 @@
+/* Base resets that must load before UnoCSS utilities.
+   Keeping this in a dedicated CSS file avoids late-injected SFC styles
+   causing layout shifts after first paint (e.g., button appearance). */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
+  font: inherit;
+  line-height: 1;
+  background: none;
+  color: inherit;
+}
+
