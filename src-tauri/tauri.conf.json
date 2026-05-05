@@ -20,7 +20,7 @@
       "csp": null
     }
   },
-  "identifier": "com.bigfive.app",
+  "identifier": "com.bigfive.desktop",
   "bundle": {
     "active": true,
     "targets": "all",
