@@ -12,6 +12,7 @@
     "tauri:build": "tauri build"
   },
   "dependencies": {
+    "@tauri-apps/api": "^2.11.0",
     "@vueuse/core": "^10.9.0",
     "@vueuse/motion": "^2.1.0",
     "canvas-confetti": "^1.9.3",

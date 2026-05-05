@@ -33,3 +33,9 @@ src-tauri/target/
 # Vendor / investigation folders not part of app
 bigfive-web-master/
 
+# Local notes / design docs (do not commit)
+DESIGN.md
+TAURI_WINDOWS_PORTABLE.md
+bigfive-web-investigation.md
+docs/
+

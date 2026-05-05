@@ -1,21 +1,14 @@
 use crate::db::DbPool;
 use axum::{
-    http::header,
     routing::{get, post},
     Router,
 };
 use tower_http::{
-    cors::{Any, CorsLayer},
     services::{ServeDir, ServeFile},
     trace::TraceLayer,
 };
 
 pub fn create_app(pool: DbPool) -> Router {
-    let cors = CorsLayer::new()
-        .allow_origin(Any)
-        .allow_methods(Any)
-        .allow_headers([header::CONTENT_TYPE]);
-
     let serve_dir = ServeDir::new("frontend/dist")
         .not_found_service(ServeFile::new("frontend/dist/index.html"));
 
@@ -42,7 +35,6 @@ pub fn create_app(pool: DbPool) -> Router {
             post(crate::routes::feedback::feedback_handler),
         )
         .nest_service("/", serve_dir)
-        .layer(cors)
         .layer(TraceLayer::new_for_http())
         .with_state(pool)
 }

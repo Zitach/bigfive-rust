@@ -1,16 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from './views/HomeView.vue'
-import TestView from './views/TestView.vue'
-import ResultView from './views/ResultView.vue'
-import CompareView from './views/CompareView.vue'
 
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/', name: 'home', component: HomeView },
-    { path: '/test', name: 'test', component: TestView },
-    { path: '/result/:id', name: 'result', component: ResultView },
-    { path: '/compare', name: 'compare', component: CompareView },
+    { path: '/', name: 'home', component: () => import('./views/HomeView.vue') },
+    { path: '/test', name: 'test', component: () => import('./views/TestView.vue') },
+    { path: '/result/:id', name: 'result', component: () => import('./views/ResultView.vue') },
+    { path: '/compare', name: 'compare', component: () => import('./views/CompareView.vue') },
   ],
 })
 

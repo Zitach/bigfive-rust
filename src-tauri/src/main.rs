@@ -1,93 +1,129 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
-use std::{collections::HashMap, net::TcpListener, sync::Mutex, time::Duration};
+use backend::db::DbPool;
+use backend::models::{
+    CreateTestResponse, FeedbackPayload, ReportResponse, TestPayload,
+};
+use backend::results::generate_report;
+use sqlx::{query, Row};
 use tauri::Manager;
-use tauri::api::process::{Command, CommandEvent};
-use serde_json::json;
+use uuid::Uuid;
 
 struct AppState {
-  api_base: Mutex<String>,
+    db: DbPool,
 }
 
 #[tauri::command]
-fn api_base(state: tauri::State<'_, AppState>) -> String {
-  state.api_base.lock().unwrap().clone()
+fn get_languages() -> Vec<backend::models::Language> {
+    backend::data::list_languages()
 }
 
-fn pick_free_port() -> u16 {
-  let listener = TcpListener::bind(("127.0.0.1", 0)).expect("bind ephemeral port");
-  listener.local_addr().unwrap().port()
+#[tauri::command]
+fn get_questions(lang: String) -> Result<Vec<backend::data::Question>, String> {
+    backend::data::get_questions(&lang).map_err(|e| e.to_string())
+}
+
+#[tauri::command]
+async fn create_test(
+    payload: TestPayload,
+    state: tauri::State<'_, AppState>,
+) -> Result<CreateTestResponse, String> {
+    let id = Uuid::new_v4().to_string();
+    let answers_json =
+        serde_json::to_string(&payload.answers).map_err(|e| e.to_string())?;
+    query(
+        "INSERT INTO tests (id, test_id, lang, invalid, time_elapsed, date_stamp, answers) VALUES (?, ?, ?, ?, ?, ?, ?)",
+    )
+    .bind(&id)
+    .bind(&payload.test_id)
+    .bind(&payload.lang)
+    .bind(payload.invalid as i32)
+    .bind(payload.time_elapsed)
+    .bind(payload.date_stamp.to_rfc3339())
+    .bind(&answers_json)
+    .execute(&state.db)
+    .await
+    .map_err(|e| e.to_string())?;
+
+    Ok(CreateTestResponse { id })
+}
+
+#[tauri::command]
+async fn get_test(
+    id: String,
+    lang: Option<String>,
+    state: tauri::State<'_, AppState>,
+) -> Result<ReportResponse, String> {
+    let row = query("SELECT lang, date_stamp, answers FROM tests WHERE id = ?")
+        .bind(&id)
+        .fetch_optional(&state.db)
+        .await
+        .map_err(|e| e.to_string())?
+        .ok_or_else(|| "Test not found".to_string())?;
+
+    let db_lang: String = row.try_get("lang").map_err(|e| e.to_string())?;
+    let date_stamp: String = row.try_get("date_stamp").map_err(|e| e.to_string())?;
+    let answers_json: String = row.try_get("answers").map_err(|e| e.to_string())?;
+
+    let answers: Vec<backend::models::Answer> =
+        serde_json::from_str(&answers_json).map_err(|e| e.to_string())?;
+
+    let selected_lang = lang.unwrap_or(db_lang);
+    let mut report =
+        generate_report(&answers, &selected_lang).map_err(|e| e.to_string())?;
+
+    report.id = id;
+    report.timestamp = chrono::DateTime::parse_from_rfc3339(&date_stamp)
+        .map(|dt| dt.timestamp_millis())
+        .unwrap_or(0);
+    report.language = selected_lang;
+
+    Ok(report)
+}
+
+#[tauri::command]
+async fn submit_feedback(
+    payload: FeedbackPayload,
+    state: tauri::State<'_, AppState>,
+) -> Result<serde_json::Value, String> {
+    query(
+        "INSERT INTO feedback (name, email, message, created_at) VALUES (?, ?, ?, datetime('now'))",
+    )
+    .bind(&payload.name)
+    .bind(&payload.email)
+    .bind(&payload.message)
+    .execute(&state.db)
+    .await
+    .map_err(|e| e.to_string())?;
+
+    Ok(serde_json::json!({"message": "Sent successfully!"}))
 }
 
 fn main() {
-  tauri::Builder::default()
-    .manage(AppState {
-      api_base: Mutex::new(String::new()),
-    })
-    .invoke_handler(tauri::generate_handler![api_base])
-    .on_page_load(|window, _| {
-      let app_handle = window.app_handle();
-      let state = app_handle.state::<AppState>();
-      let base = {
-        let guard = state.api_base.lock().unwrap();
-        guard.clone()
-      };
-      if !base.is_empty() {
-        let _ = window.eval(&format!(
-          "window.__B5_API_BASE__ = {};",
-          json!(base).to_string()
-        ));
-      }
-    })
-    .setup(|app| {
-      let port = pick_free_port();
-      let api_base = format!("http://127.0.0.1:{port}");
+    tauri::Builder::default()
+        .setup(|app| {
+            let app_data_dir = app
+                .path()
+                .app_data_dir()
+                .expect("failed to resolve app_data_dir");
+            std::fs::create_dir_all(&app_data_dir).expect("failed to create app_data_dir");
+            let db_path = app_data_dir.join("data.sqlite");
 
-      // Store API base for the frontend to query via invoke().
-      {
-        let state = app.state::<AppState>();
-        *state.api_base.lock().unwrap() = api_base.clone();
-      }
+            let pool = tauri::async_runtime::block_on(
+                backend::db::init_db(&db_path.to_string_lossy()),
+            )
+            .expect("failed to initialize database");
 
-      // Put sqlite DB in app data dir (portable-friendly, avoids CWD surprises).
-      let app_data_dir = app
-        .path_resolver()
-        .app_data_dir()
-        .ok_or_else(|| tauri::Error::AssetNotFound("app_data_dir unavailable".into()))?;
-      std::fs::create_dir_all(&app_data_dir)?;
-      let db_path = app_data_dir.join("data.sqlite");
-      // SQLx sqlite connections on Windows are much more reliable when opened in
-      // read-write-create mode explicitly.
-      let database_url = format!(
-        "sqlite:{}?mode=rwc",
-        db_path.to_string_lossy().replace('\\', "/")
-      );
-
-      // Start backend as a sidecar.
-      let mut cmd = Command::new_sidecar("backend")?;
-      let mut envs = HashMap::new();
-      envs.insert("HOST".to_string(), "127.0.0.1".to_string());
-      envs.insert("PORT".to_string(), port.to_string());
-      envs.insert("DATABASE_URL".to_string(), database_url);
-      cmd = cmd.envs(envs);
-
-      let (mut rx, _child) = cmd.spawn()?;
-
-      // Consume events in background so the sidecar doesn't block on a full pipe.
-      tauri::async_runtime::spawn(async move {
-        while let Some(event) = rx.recv().await {
-          if let CommandEvent::Error(e) = event {
-            eprintln!("backend sidecar error: {e}");
-          }
-        }
-      });
-
-      // Give backend a short head start; frontend will also retry naturally.
-      std::thread::sleep(Duration::from_millis(250));
-
-      Ok(())
-    })
-    .run(tauri::generate_context!())
-    .expect("error while running tauri application");
+            app.manage(AppState { db: pool });
+            Ok(())
+        })
+        .invoke_handler(tauri::generate_handler![
+            get_languages,
+            get_questions,
+            create_test,
+            get_test,
+            submit_feedback,
+        ])
+        .run(tauri::generate_context!())
+        .expect("error while running tauri application");
 }
-
