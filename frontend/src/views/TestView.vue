@@ -12,6 +12,7 @@ import type { Question, Answer, TestPayload, Language } from '@/types'
 import LanguageSelect from '@/components/LanguageSelect.vue'
 import { useB5Data } from '@/composables/useB5Data'
 import { setPreferredLocale, getPreferredLocale } from '@/i18n'
+import { getQuestionsPerPage } from '@/utils/responsive'
 
 const { t } = useI18n()
 const router = useRouter()
@@ -33,7 +34,7 @@ watch(currentIndex, (newVal, oldVal) => {
 })
 
 function updateQuestionsPerPage() {
-  const newValue = window.innerWidth > 768 ? 3 : 1
+  const newValue = getQuestionsPerPage(window.innerWidth)
   if (newValue !== questionsPerPage.value) {
     questionsPerPage.value = newValue
     if (questionsPerPage.value > 1) {
